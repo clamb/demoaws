@@ -1,0 +1,8 @@
+services:
+  srv:
+    image: clambercy/gosrv:latest
+    ports:
+      - 80:8000
+    environment:
+      - DB_SERVER=127.0.0.1
+      - SRV_PORT=8000
